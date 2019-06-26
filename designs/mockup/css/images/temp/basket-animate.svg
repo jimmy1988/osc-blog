@@ -1,0 +1,21 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80" id="el_jdEHXFqiX"><style>@-webkit-keyframes el_lAA3rpf64t_QaUQNmZwi_Animation{20%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}35%{-webkit-transform: rotate(200deg);transform: rotate(200deg);}42.50%{-webkit-transform: rotate(160deg);transform: rotate(160deg);}50%{-webkit-transform: rotate(200deg);transform: rotate(200deg);}65%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}}@keyframes el_lAA3rpf64t_QaUQNmZwi_Animation{20%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}35%{-webkit-transform: rotate(200deg);transform: rotate(200deg);}42.50%{-webkit-transform: rotate(160deg);transform: rotate(160deg);}50%{-webkit-transform: rotate(200deg);transform: rotate(200deg);}65%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}0%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}100%{-webkit-transform: rotate(0deg);transform: rotate(0deg);}}#el_jdEHXFqiX *{-webkit-animation-duration: 4s;animation-duration: 4s;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;-webkit-animation-timing-function: cubic-bezier(0, 0, 1, 1);animation-timing-function: cubic-bezier(0, 0, 1, 1);}#el_CfSc0tw9ZK{fill: #fcc74a;}#el_8gFjiH4YcO{fill: #fff;}#el_oiMnZO8nJ1{fill: #fbbc23;}#el_lJjaWE0KvW{fill: url(#linear-gradient);}#el_lAA3rpf64t_QaUQNmZwi{-webkit-animation-name: el_lAA3rpf64t_QaUQNmZwi_Animation;animation-name: el_lAA3rpf64t_QaUQNmZwi_Animation;-webkit-animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);-webkit-transform-origin: 50% 50%;transform-origin: 50% 50%;transform-box: fill-box;}</style>
+  <defs>
+    
+    <linearGradient id="linear-gradient" x1="41.8752" y1="7.43306" x2="36.69213" y2="79.9959" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f969a4"/>
+      <stop offset="1" stop-color="#f969a4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <title>empty-basket-icon</title>
+  <g id="el_WquRJdjLyN">
+    <circle cx="40" cy="40" r="40" id="el_CfSc0tw9ZK"/>
+  </g>
+  <g id="el_lAA3rpf64t_QaUQNmZwi" data-animator-group="true" data-animator-type="1"><g id="el_lAA3rpf64t">
+    <g id="el_rXGcS80ZkN">
+      <polygon points="53.375 34.822 40 20.237 26.625 34.822 26.326 34.549 40 19.637 53.674 34.549 53.375 34.822" id="el_8gFjiH4YcO"/>
+      <polygon points="65.133 33.686 14.867 33.686 22.817 60.063 32.286 60.063 38.22 60.063 57.183 60.063 65.133 33.686" id="el_oiMnZO8nJ1"/>
+      <polygon points="65.133 33.686 14.867 33.686 22.817 60.063 32.286 60.063 38.22 60.063 57.183 60.063 65.133 33.686" id="el_lJjaWE0KvW"/>
+    </g>
+  </g></g>
+<script>(function(){var a=document.querySelector('#el_jdEHXFqiX'),b=a.querySelectorAll('style'),c=function(d){b.forEach(function(f){var g=f.textContent;g&amp;&amp;(f.textContent=g.replace(/transform-box:[^;\r\n]*/gi,'transform-box: '+d))})};c('initial'),window.requestAnimationFrame(function(){return c('fill-box')})})();</script></svg>

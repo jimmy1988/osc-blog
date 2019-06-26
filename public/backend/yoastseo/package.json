@@ -1,0 +1,141 @@
+{
+  "_from": "yoastseo",
+  "_id": "yoastseo@1.50.0",
+  "_inBundle": false,
+  "_integrity": "sha512-0V7wbNsWiuBpz7zV3esScu1fI/k0uMmjy2RVnEkeBgL4ktk1EBCbbYmdkG5Sg8Bg3dfmtjzpEAzifQWsJYV1lA==",
+  "_location": "/yoastseo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "yoastseo",
+    "name": "yoastseo",
+    "escapedName": "yoastseo",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/yoastseo/-/yoastseo-1.50.0.tgz",
+  "_shasum": "dba63d3902d3e04954bfb02624903466db22348f",
+  "_spec": "yoastseo",
+  "_where": "/Applications/MAMP/htdocs/osc_blog",
+  "browser": "js/browser.js",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Yoast/js-text-analysis/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@wordpress/autop": "^2.0.2",
+    "htmlparser2": "^3.9.2",
+    "jed": "^1.1.0",
+    "lodash-es": "^4.17.10",
+    "loglevel": "^1.6.1",
+    "parse5": "^5.1.0",
+    "sassdash": "0.9.0",
+    "tokenizer2": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "Yoast clientside page analysis",
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^23.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "babelify": "^8.0.0",
+    "console.table": "^0.10.0",
+    "eslint-config-yoast": "^5.0.7",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-yoast": "^1.0.1",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-exorcise": "^2.1.1",
+    "grunt-po2json": "git+https://github.com/atimmer/grunt-po2json.git#f26c05653af89ef0f7a72456dbe141eb56bf5471",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.0.0",
+    "grunt-shell": "^2.0.0",
+    "istanbul": "^0.4.0",
+    "jest": "^23.5.0",
+    "js-yaml": "^3.12.1",
+    "load-grunt-config": "^1.0.0",
+    "lodash-cli": "^4.14.1",
+    "node-sass": "^4.9.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "gitHead": "30c8fe5eb8054d9876b09fa70a6553797adaaf48",
+  "homepage": "https://github.com/Yoast/",
+  "jest": {
+    "collectCoverage": true,
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "<rootDir>/node_modules/babel-jest",
+      "^.+\\.html$": "<rootDir>/spec/specHelpers/rawLoader"
+    },
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!lodash-es/.*)",
+      "<rootDir>/spec/fullTextTests/testText/*/*\\.html"
+    ],
+    "testRegex": "/spec/.*\\.(js)$",
+    "testEnvironment": "node",
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "testPathIgnorePatterns": [
+      "/spec/specHelpers/*",
+      "/spec/fullTextTests/testTexts"
+    ],
+    "coveragePathIgnorePatterns": [
+      "js/templates.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 74,
+        "functions": 78,
+        "lines": 83,
+        "statements": 83
+      }
+    }
+  },
+  "keywords": [
+    "Yoast",
+    "SEO",
+    "text analysis"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "yoastseo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yoast/YoastSEO.js.git"
+  },
+  "scripts": {
+    "build": "grunt publish",
+    "install-ci": "grunt get-premium-configuration",
+    "lint": "grunt check",
+    "prepublishOnly": "grunt publish",
+    "start": "npm start --prefix examples/webpack",
+    "test": "jest --runInBand"
+  },
+  "version": "1.50.0"
+}

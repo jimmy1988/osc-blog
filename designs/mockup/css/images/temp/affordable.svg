@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="81px" viewBox="0 0 80 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>w2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40.62" r="40"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="w2">
+            <circle id="Oval" fill="#40BEAD" fill-rule="nonzero" cx="40" cy="40.62" r="40"></circle>
+            <g id="Group">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#40BEAD" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(16.000000, -62.000000)">
+                        <path d="M44,127.15 L4.8,127.15 C3.43975239,127.150011 2.33550708,126.050236 2.33,124.69 L2.33,99.41 L46.5,99.41 L46.5,124.69 C46.5000872,125.349423 46.2354257,125.981272 45.7653985,126.443779 C45.2953713,126.906286 44.6593353,127.160722 44,127.15 Z" id="Shape" stroke="none" fill="#FCC74A" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-path" stroke="none" fill="#474747" fill-rule="nonzero" x="2.33" y="87.14" width="44.17" height="10.91"></rect>
+                        <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(12.370000, 86.910000)" font-family="Archer-Book, Archer" font-size="9.7" font-weight="300">
+                            <text id="£" fill="#FFFFFF">
+                                <tspan x="0" y="8">£</tspan>
+                            </text>
+                            <text id="50,000" fill="#FFFFFF">
+                                <tspan x="4.54" y="8">50,000</tspan>
+                            </text>
+                        </g>
+                        <path d="M15,104.37 L15,105.94 L11.84,105.94 L11.84,104.37 L15,104.37 Z M15.67,103.7 L11.17,103.7 L11.17,106.61 L15.64,106.61 L15.64,103.7 L15.67,103.7 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <path d="M20.89,104.37 L20.89,105.94 L17.75,105.94 L17.75,104.37 L20.89,104.37 Z M21.56,103.7 L17.08,103.7 L17.08,106.61 L21.56,106.61 L21.56,103.7 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <path d="M27,104.37 L27,105.94 L23.82,105.94 L23.82,104.37 L27,104.37 Z M27.66,103.7 L23.15,103.7 L23.15,106.61 L27.62,106.61 L27.62,103.7 L27.66,103.7 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-path" stroke="none" fill="#FBBC23" fill-rule="nonzero" x="38.71" y="103.7" width="4.47" height="2.91"></rect>
+                        <path d="M34.35,104.37 L34.35,105.94 L31.22,105.94 L31.22,104.37 L34.35,104.37 Z M35.02,103.7 L30.55,103.7 L30.55,106.61 L35,106.61 L35,103.7 L35.02,103.7 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="11.17" y="108.01" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="11.17" y="113.89" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="11.17" y="119.76" width="4.47" height="4.47"></rect>
+                        <path d="M8.28,108.68 L8.28,111.82 L5.15,111.82 L5.15,108.68 L8.28,108.68 Z M9,108 L4.48,108 L4.48,112.47 L9,112.47 L9,108 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <path d="M8.28,114.55 L8.28,117.69 L5.15,117.69 L5.15,114.55 L8.28,114.55 Z M8.95,113.89 L4.48,113.89 L4.48,118.36 L9,118.36 L9,113.89 L8.95,113.89 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <path d="M8.28,120.43 L8.28,123.57 L5.15,123.57 L5.15,120.43 L8.28,120.43 Z M8.95,119.76 L4.48,119.76 L4.48,124.24 L9,124.24 L9,119.76 L8.95,119.76 Z" id="Shape" stroke="none" fill="#A3CBCC" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="17.08" y="108.01" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="17.08" y="113.89" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="17.08" y="119.76" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="23.15" y="108.01" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="none" fill="#F0468A" fill-rule="nonzero" x="30.55" y="108.01" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="23.15" y="113.89" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="23.15" y="119.76" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="38.71" y="108.01" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="38.71" y="113.89" width="4.47" height="4.47"></rect>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="38.71" y="119.76" width="4.47" height="4.47"></rect>
+                        <text id="1" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="4.02" font-weight="300">
+                            <tspan x="12.71" y="122.99">1</tspan>
+                        </text>
+                        <text id="4" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="4.02" font-weight="300">
+                            <tspan x="12.48" y="116.8">4</tspan>
+                        </text>
+                        <text id="7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="12.71" y="110.97">7</tspan>
+                        </text>
+                        <text id="8" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="18.48" y="111.42">8</tspan>
+                        </text>
+                        <text id="9" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="24.42" y="110.97">9</tspan>
+                        </text>
+                        <text id="5" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="18.48" y="116.8">5</tspan>
+                        </text>
+                        <text id="6" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="24.42" y="117.25">6</tspan>
+                        </text>
+                        <text id="2" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="4.02" font-weight="300">
+                            <tspan x="18.28" y="122.99">2</tspan>
+                        </text>
+                        <text id="3" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="24.42" y="122.66">3</tspan>
+                        </text>
+                        <text id="0" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="39.95" y="122.88">0</tspan>
+                        </text>
+                        <text id="." stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="40.73" y="117">.</tspan>
+                        </text>
+                        <text id="%" stroke="none" fill="#FFFFFF" fill-rule="evenodd" font-family="Archer-Book, Archer" font-size="3.68" font-weight="300">
+                            <tspan x="39.84" y="111.09">%</tspan>
+                        </text>
+                        <path d="M0.58,87.14 L0.58,125.14 C0.58,127.150316 2.20968351,128.78 4.22,128.78 L44.62,128.78 C46.6303165,128.78 48.26,127.150316 48.26,125.14 L48.26,85.8 L26.93,85.8" id="Shape" stroke="#FFFFFF" stroke-width="0.17" fill="none"></path>
+                        <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round" x="30.61" y="113.89" width="4.35" height="10.35"></rect>
+                        <path d="M32.78,118.12 L32.78,120.43" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <path d="M33.94,119.28 L31.63,119.28" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <path d="M33.94,110.25 L31.63,110.25" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <path d="M7.72,109.84 L5.71,109.84" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <path d="M7.72,110.62 L5.71,110.62" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <path d="M5.9,115.3 L7.53,116.94" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <path d="M7.53,115.3 L5.9,116.94" id="Shape" stroke="#FFFFFF" stroke-width="0.33" fill="none" stroke-linejoin="round"></path>
+                        <polyline id="Shape" stroke="#A3CBCC" stroke-width="0.67" fill="none" points="24.42 74.72 27.62 74.72 27.62 84.13"></polyline>
+                        <path d="M14.84,83.38 L14.84,66.65 C14.8373466,62.9882801 16.2900995,59.4756266 18.8783892,56.8854613 C21.4666789,54.2952961 24.9782792,52.839999 28.64,52.84 L32.48,52.84 C36.1469286,52.8400154 39.6630881,51.3806014 42.252243,48.7839417 C44.8413979,46.187282 46.2906288,42.6669132 46.28,39 C46.28,35.3400124 44.8260756,31.8299284 42.2380736,29.2419264 C39.6500716,26.6539244 36.1399876,25.2 32.48,25.2 L16.81,25.2 C9.20016153,25.2055463 3.02205549,19.0498085 3,11.44 L3,0" id="Shape" stroke="#FFFFFF" stroke-width="17.4" fill="none"></path>
+                        <path d="M20.49,80.45 L10.2,80.45" id="Shape" stroke="#474747" stroke-width="0.33" fill="none"></path>
+                        <path d="M20.49,77.52 L12.71,77.52" id="Shape" stroke="#474747" stroke-width="0.33" fill="none"></path>
+                        <path d="M20.49,71.5 L15.83,71.5" id="Shape" stroke="#474747" stroke-width="0.33" fill="none"></path>
+                        <path d="M20.49,68.74 L16.6,68.74" id="Shape" stroke="#474747" stroke-width="0.33" fill="none"></path>
+                        <path d="M20.49,74.34 L11.17,74.34" id="Shape" stroke="#474747" stroke-width="0.33" fill="none"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

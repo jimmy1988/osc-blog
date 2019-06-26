@@ -1,0 +1,462 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#search_input').on('keyup', function() {
+          if ($('#search_input').val() == '') {
+            $("#results_container").removeClass('results-show').addClass('results-hidden');
+          } else {
+            $("#results_container").addClass('results-show').removeClass('results-hidden');
+          }
+        })
+        }); 
+
+        $(document).ready(function(){
+            $('#search_input').on('keyup', function() {
+          if ($('#search_input').val() == '') {
+            $(".results__title").removeClass('title-show').addClass('title-hidden');
+          } else {
+            $(".results__title").addClass('title-show').removeClass('title-hidden');
+          }
+        })
+        }); 
+        
+        jQuery(document).ready(function($) {
+        $('body').on('click', '.js-togglenav', function(event) {
+            event.preventDefault();
+            var $html = $('html');
+            var $btn = $(this);
+
+            if($html.hasClass('navtoggled')){
+                $html.removeClass('navtoggled')			
+            } else {
+                $html.addClass('navtoggled')			
+            }
+        });
+
+            
+        $(document).ready(function(){
+            $("#exampleModalLong").on('shown.bs.modal', function(){
+                $(this).find('#search_input').focus();
+            });
+        });    
+
+        });  
+        
+        
+    </script>
+    
+</head>
+<body class="single-page">
+
+<a class="js-togglenav menubtn" href="#"><span></span><span></span><span></span><span></span></a>
+
+<section id="feed-header">
+    
+<div class="header-container">  
+    <div id="masthead">
+        
+        <div class="topmenu mobilehide">
+            <a class="totel">Call us: 03300 563100</a>
+            
+            <ul class="">
+                <li><a href="index.html">
+                    <i class="ico-home-pink"></i>
+                    <i class="ico-home"></i>
+                    Blog Home</a></li>
+                <li><a href="#">
+                    <i class="ico-return-pink"></i>
+                    <i class="ico-return"></i>
+                    Main Website</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#exampleModalLong">
+                    <i class="ico-search-pink"></i>
+                    <i class="ico-search"></i>
+					Search</a></li>
+                <li><a href="#">
+                    <i class="ico-basket-pink"></i>
+                    <i class="ico-basket"></i>
+                    Your Basket</a></li>
+            </ul>
+        </div>
+        
+        <div class="mainmenu">
+            <a class="logo">
+                <img src="images/osc-blog-logo.svg" />
+            </a>
+            
+            <ul class="desktophide icons-mobile">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#exampleModalLong">
+                    <i class="ico-search"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="">
+                    <i class="ico-basket"></i>
+                    </a>
+                </li>
+                
+            </ul>
+            
+            <nav>
+                <ul>
+                    <li class="desktophide"><a href="#">Blog Home</a></li>
+                    <li class="desktophide"><a href="#">Main Website</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </div><!-- /Masthead -->
+    
+    <!-- Article Intro -->
+    <article class="course-otm">    
+        <div class="article-meta">
+            <span class="article-date">00/00/00</span>
+            <span class="featured-post"><i class="ico-featured"></i><span>Featured Post</span></span>
+            <span class="author-name">Author: Author Name</span>
+        </div>
+        
+        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet</h1>
+        
+        <ul class="article-tags">
+            <li><a href="#">News</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Uncategorised</a></li>
+        </ul>
+
+        
+    </article><!-- /Article Intro -->
+</div>  
+
+    <img class="post-thumbnail-large" src="images/temp.jpg" />
+
+    
+</section><!-- /Feed Header -->
+
+<div id="belowheader">
+
+<section id="blogcontent" class="">
+    
+    <article>
+    
+        <h2>This is a large header example</h2>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non varius nunc, sed dapibus nisl. Curabitur egestas lorem et quam facilisis facilisis. Quisque cursus volutpat pellentesque. Fusce sed cursus sapien, quis viverra orci. Pellentesque odio tellus, lobortis vitae porttitor eu, hendrerit eget leo. Nunc at commodo velit. Vestibulum tellus dolor, condimentum id pulvinar consequat, auctor a purus. Etiam commodo tempus consequat. Pellentesque quis ligula auctor, feugiat risus non, scelerisque nisl. Nulla facilisi. Praesent interdum facilisis eros. Aliquam eget suscipit justo.</p>
+        
+        <h3>This is a medium header example Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+
+        <p>Donec euismod blandit lacus, in iaculis lacus fringilla dignissim. Duis pharetra augue ac tempus convallis. Integer arcu tortor, luctus sed ligula consequat, placerat rhoncus quam. Fusce congue gravida purus at pulvinar. Suspendisse fermentum luctus dignissim. <a href="">Sed facilisis diam sodales</a>, commodo eros non, pulvinar risus. Integer tempor sagittis purus, nec fringilla quam hendrerit ut. Mauris at arcu pellentesque, volutpat ipsum a, egestas sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc molestie finibus sagittis. Cras sed metus eget nibh commodo molestie non sed orci.</p>
+        
+        <h4>This is a small header example Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+
+        <p>Proin eget tellus dolor. Sed sodales turpis enim, non sodales arcu vehicula eu. Pellentesque molestie placerat nulla, a finibus orci vehicula et. Quisque quis dolor eget libero mattis ultricies. Proin blandit nibh id vulputate lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ut eleifend justo. Suspendisse ultrices lacus vitae aliquam viverra. Cras massa eros, facilisis a accumsan at, tempor vitae sapien. In sapien ante, semper sit amet scelerisque eget, porta sit amet dolor. Duis id dignissim neque, dapibus vestibulum dui. Aliquam neque turpis, imperdiet ut convallis id, ornare eu leo.</p>
+
+        <img src="images/blogimg.jpg" />
+        
+        <p>Proin porttitor ligula quis enim euismod malesuada. Phasellus semper mi quis nunc pellentesque tincidunt. Sed varius sed lectus ac blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque at leo eget quam commodo congue a sit amet ante. Cras at eros sit amet metus commodo sagittis eu vitae tellus. Nullam condimentum nec ipsum ut consequat. Nunc vitae rutrum metus. Nam eu tellus mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a blandit ipsum, ac hendrerit velit. Nam commodo pretium lorem id semper. Mauris semper efficitur arcu, sit amet pellentesque odio efficitur sit amet. Donec quam nisl, sagittis eu tellus sit amet, auctor condimentum ipsum. Fusce vel nunc at tortor fringilla aliquam. Nulla tempor, quam eget venenatis venenatis, quam dui mattis nibh, posuere accumsan dui est quis urna.</p>
+        
+        <blockquote>
+            <p>Proin eget tellus dolor. Sed sodales turpis enim, non sodales arcu vehicula eu.</p> 
+        </blockquote>
+            
+        <p>Quisque quis dolor eget libero mattis ultricies. Proin blandit nibh id vulputate lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ut eleifend justo. Suspendisse ultrices lacus vitae aliquam viverra. Cras massa eros, facilisis a accumsan at, tempor vitae sapien. In sapien ante, semper sit amet scelerisque eget, porta sit amet dolor. Duis id dignissim neque, dapibus vestibulum dui. Aliquam neque turpis, imperdiet ut convallis id, ornare eu leo.</p>
+
+        <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zDZFcDGpL4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        </div>
+
+        <p>Proin porttitor ligula quis enim euismod malesuada. Phasellus semper mi quis nunc pellentesque tincidunt. Sed varius sed lectus ac blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque at leo eget quam commodo congue a sit amet ante. Cras at eros sit amet metus commodo sagittis eu vitae tellus. Nullam condimentum nec ipsum ut consequat. Nunc vitae rutrum metus. Nam eu tellus mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a blandit ipsum, ac hendrerit velit. Nam commodo pretium lorem id semper. Mauris semper efficitur arcu, sit amet pellentesque odio efficitur sit amet. Donec quam nisl, sagittis eu tellus sit amet, auctor condimentum ipsum. Fusce vel nunc at tortor fringilla aliquam. Nulla tempor, quam eget venenatis venenatis, quam dui mattis nibh, posuere accumsan dui est quis urna.</p>
+        
+        <ul class="sharingicons">
+            <li class="share-article">Share this article</li>
+            <li>
+            <a href="#">
+                <i class="icon-medium"></i>  
+                <i class="icon-medium-pink"></i>  
+            </a>
+            </li>
+            
+            <li>
+            <a href="#">
+                <i class="icon-twitter"></i>  
+                <i class="icon-twitter-pink"></i>  
+            </a>
+            </li>
+            
+            <li>
+            <a href="#">
+                <i class="icon-facebook"></i>  
+                <i class="icon-facebook-pink"></i>  
+            </a>
+            </li>
+            
+            <li>
+            <a href="#">
+                <i class="icon-instagram"></i>  
+                <i class="icon-instagram-pink"></i>  
+            </a>
+            </li>
+        </ul>
+    </article>
+    <!-- /Article -->
+    
+</section>
+</div>    
+
+<hr class="blogfeed-rule" />
+
+<div id="belowheader">    
+<section id="blogfeed" class="feed-inner-prev-stories">
+    
+    <h5>Next Article</h5>
+
+    <!-- Article Intro -->
+    <article>   
+        
+    <a class="thumbnail-intro" href="single.html"><img class="post-thumbnail" src="images/temp.jpg" /></a>
+        
+    <div>
+        
+            <div class="article-meta">
+            <span class="article-date">00/00/00</span>
+            </div>
+        
+            <a href="single.html">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non varius nunc, sed dapibus nisl. Curabitur egestas lorem et quam facilisis facilisis.</p>
+            </a>
+
+            <ul class="article-tags">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Uncategorised</a></li>
+            </ul>  
+            
+    </div>    
+    </article>
+    <!-- /Article Intro -->
+    
+</section>
+    </div>
+
+
+
+<footer class="footer">
+    <div class="shell">
+        <div class="footer__inner">
+            <div class="footer__body">
+                <div class="socials">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="ico-facebook"></i> <span>Facebook</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="ico-twitter"></i> <span>Twitter</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="ico-youtube"></i> <span>YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.socials -->
+
+                <nav class="footer__nav">
+                    <ul>
+                        <li>
+                            <a href="#">Terms & Conditions</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+
+                        <li>
+                            <a href="#">GDPR Example</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.nav -->
+
+                <nav class="footer__nav">
+                    <ul>
+                        <li>
+                            <a href="#">Our Blog</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Tutors</a>
+                        </li>
+
+                        <li>
+                            <a href="#">How It Works</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                    </ul>
+                </nav><!-- /.footer__nav -->
+            </div><!-- /.footer__body -->
+
+            <div class="footer__aside">
+                <ul class="list-logos">
+                    <li>
+                        <a href="#">
+                            <i class="logo-harry"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="logo-trustpilot logo-trustpilot--small"></i>
+                        </a>
+                    </li>
+                </ul><!-- /.list-logos -->
+
+                <p>All content ©2018 Open Study College</p>
+            </div><!-- /.footer__aside -->
+        </div><!-- /.footer__inner -->
+    </div><!-- /.shell -->
+</footer><!-- /.footer -->
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+     
+        
+    <div class="search">
+							<form action="?" method="get">
+								<label for="q" class="hidden">Search</label>
+								
+								<input id="search_input" type="search" class="search__field" name="q" id="q" placeholder="Search our blog" autofocus />
+		
+                                
+                                <a href="#" class="btn-close" data-dismiss="modal">
+                                    <i class="ico-cross"></i>
+                                </a>
+							</form>
+
+                            
+      <h6 class="results__title title-hidden">Search results:  <span>40</span> articles found</h6>
+    
+        
+      <div class="modal-body">
+            <div id="results_container" class="results results-hidden">
+
+							<div class="results__body">
+								<div class="search--result">
+									<a href="#">
+										<div class="result_inner">
+											<h5>00/00/00</h5>
+
+											<h2>
+												Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. 
+											</h2>
+
+										</div><!-- /.result__inner -->
+
+									</a>
+								</div><!-- /.search--result -->
+
+								<div class="search--result">
+									<a href="#">
+										<div class="result_inner">
+											<h5>00/00/00</h5>
+
+											<h2>
+												Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. 
+											</h2>
+
+										</div><!-- /.result__inner -->
+
+									</a>
+								</div><!-- /.search--result -->
+                                
+                                <div class="search--result">
+									<a href="#">
+										<div class="result_inner">
+											<h5>00/00/00</h5>
+
+											<h2>
+												Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. 
+											</h2>
+
+										</div><!-- /.result__inner -->
+
+									</a>
+								</div><!-- /.search--result -->
+                                
+                                <div class="search--result">
+									<a href="#">
+										<div class="result_inner">
+											<h5>00/00/00</h5>
+
+											<h2>
+												Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. 
+											</h2>
+
+										</div><!-- /.result__inner -->
+
+									</a>
+								</div><!-- /.search--result -->
+                                
+                                <div class="search--result">
+									<a href="#">
+										<div class="result_inner">
+											<h5>00/00/00</h5>
+
+											<h2>
+												Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. Blog title goes here and can go over multiple lines. 
+											</h2>
+
+										</div><!-- /.result__inner -->
+
+									</a>
+								</div><!-- /.search--result -->
+                                
+							</div><!-- /.results__body -->
+						</div><!-- /.results -->
+          
+        
+         </div>
+      </div><!-- /.search --> 
+
+                <div class="bg-animation-container">
+					<span class="bg-animation"></span>
+				</div><!-- /.bg-animation-container -->            
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

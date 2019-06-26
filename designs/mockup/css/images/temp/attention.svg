@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>w3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="w3">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#F969A4" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)">
+                <circle id="Oval" fill="#F969A4" fill-rule="nonzero" cx="40" cy="40" r="40"></circle>
+                <g id="Group" transform="translate(6.000000, 16.000000)">
+                    <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(23.687088, 36.064858) rotate(-6.280000) translate(-23.687088, -36.064858) " x="3.02708843" y="7.439858" width="41.32" height="57.25"></rect>
+                    <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="0.41" transform="translate(49.070480, 36.066658) rotate(6.910000) translate(-49.070480, -36.066658) " x="31.4954804" y="11.7166582" width="35.15" height="48.7"></rect>
+                    <rect id="Rectangle-path" fill="#FCC74A" fill-rule="nonzero" x="10.59" y="0.68" width="48.42" height="66.16" rx="1.69"></rect>
+                    <path d="M16.8,0.68 L16.8,50.64" id="Shape" stroke="#FFFFFF" stroke-width="0.3"></path>
+                    <g transform="translate(23.610000, 8.850000)" fill="#FFFFFF" font-family="Archer-Bold, Archer" font-size="8.1" font-weight="bold">
+                        <text id="C">
+                            <tspan x="0" y="6">C</tspan>
+                        </text>
+                        <text id="o">
+                            <tspan x="5.54" y="6">o</tspan>
+                        </text>
+                        <text id="u">
+                            <tspan x="9.81" y="6">u</tspan>
+                        </text>
+                        <text id="r">
+                            <tspan x="14.4" y="6">r</tspan>
+                        </text>
+                        <text id="s">
+                            <tspan x="17.84" y="6">s</tspan>
+                        </text>
+                        <text id="e">
+                            <tspan x="21.53" y="6">e</tspan>
+                        </text>
+                        <text id="P">
+                            <tspan x="4.21" y="13.13">P</tspan>
+                        </text>
+                        <text id="a">
+                            <tspan x="8.79" y="13.13">a</tspan>
+                        </text>
+                        <text id="ck">
+                            <tspan x="12.86" y="13.13">ck</tspan>
+                        </text>
+                    </g>
+                    <path d="M91.06,36.47 L91.06,71.71 L46.7,71.71 L46.7,36.47 L91.06,36.47 Z M91.47,36.07 L46.3,36.07 L46.3,72.07 L91.47,72.07 L91.47,36.07 Z" id="Shape" fill="#474747" fill-rule="nonzero"></path>
+                    <path d="M53.28,40.65 L80.26,40.65" id="Shape" stroke="#474747" stroke-width="0.41"></path>
+                    <path d="M53.28,48.48 L80.26,48.48" id="Shape" stroke="#474747" stroke-width="0.41"></path>
+                    <path d="M53.28,51.48 L84.03,51.48" id="Shape" stroke="#474747" stroke-width="0.41"></path>
+                    <path d="M53.28,43.89 L71.39,43.89" id="Shape" stroke="#474747" stroke-width="0.41"></path>
+                    <rect id="Rectangle-path" stroke="#474747" stroke-width="0.41" x="72.96" y="55.77" width="11.07" height="11.07"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
